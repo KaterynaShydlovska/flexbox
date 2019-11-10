@@ -1,0 +1,166 @@
+@media only screen and (min-width: 768px) {
+  div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+  header{
+    display: flex;
+    width: 960px;
+    height: 100px;
+    border: 1px solid black;
+  }
+  div{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .b{
+    width: 200px;
+    height: 600px;
+    border: 1px solid black;
+  }
+  .c{
+    width: 380px;
+    height: 200px;
+    border: 1px solid black;
+  }
+   .d{
+    width: 380px;
+    height: 200px;
+    border: 1px solid black;
+  }
+  main div{
+    width: 190px;
+    height: 250px;
+    border: 1px solid black;
+  }
+   main.boxes{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  footer{
+    width: 760px;
+    height: 150px;
+    border: 1px solid black;
+  }
+
+}
+/* Small devices (mobile, 500px ) */
+ @media only screen and (max-width: 600px) {
+  div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  header{
+    background-color: rgb(214, 131, 21);
+    flex-direction: column;
+  }
+
+  main.boxes{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+div .c{
+  background-color: azure;
+}
+    div:nth-child(6){
+background-color: white;
+}
+
+
+.boxes div:nth-child(1){
+  background-color: rgb(0, 255, 179);
+}
+.boxes div:nth-child(2){
+  
+  background-color: rgb(71, 13, 71);
+}
+
+div .g{
+  background-color: bisque;
+}
+
+.boxes div:nth-child(4){
+  
+  background-color: rgb(214, 132, 94);
+}
+footer{
+  background-color: rgb(112, 87, 136);
+}
+} 
+
+ @media only screen and (max-width: 767px) {
+  div{
+    display: flex;
+    flex-direction: column;
+  }
+body{
+  width: 480px;
+  height: 767px;
+  margin: 0 auto;
+}
+header{
+  width: 480px;
+  height: 75px;
+  border: 1px solid black;
+  border-bottom: 0;
+  margin: 0 auto;
+  background: gray;
+
+}
+ main.boxes{
+    display: flex;
+    flex-wrap: wrap;
+  }
+div{
+width: 480px;
+height: 125px;
+border:solid 1px black;
+border-bottom: 0;
+margin: 0;
+background: yellow;
+}
+
+div:nth-child(6){
+background-color: beige;
+}
+.boxes div:nth-child(1){
+  background-color: orange;
+}
+.boxes div:nth-child(2){
+  border-left: 0;
+  background-color: red;
+}
+div:nth-child(3){
+border-left: 0;
+background-color: green;
+}
+
+.boxes div:nth-child(4){
+  border-left: 0;
+  background-color: blueviolet;
+}
+div.g{
+  background-color: rgb(212, 212, 233);
+}
+.b{
+  height: 150px;
+  background-color: blue;
+}
+
+.boxes div{
+  width: 240px;
+  height: 250px;
+ 
+}
+
+footer{
+width: 480px;
+height: 80px;
+border: 1px solid black;
+background: pink;
+}
